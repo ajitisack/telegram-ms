@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 	"time"
-	pb "tradebot/proto"
+	pb "telegram/proto"
 
 	"google.golang.org/grpc"
 )
