@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 	"time"
-	pb "tradebot/proto"
+	pb "telegram/proto"
 
 	"google.golang.org/grpc"
 )
