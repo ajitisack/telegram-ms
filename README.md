@@ -12,4 +12,8 @@ This microservice is created using go lang and protocol used for client-server a
 3. Add bin path of go to PATH variable
     - export PATH="$PATH:$(go env GOPATH)/bin"
 
+Command to compile proto file : 
+
+- protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative proto/telegram.proto
+
 Reference :- https://www.golinuxcloud.com/golang-grpc/#gRPC_vs_REST
