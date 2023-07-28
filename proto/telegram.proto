@@ -1,0 +1,18 @@
+syntax="proto3";
+
+package proto;
+
+option go_package = "./tradebot";
+
+message TelegramMessage {
+    string user = 1;
+    string message = 2;
+}
+
+message TelegramMessageStatus {
+    bool done = 1;
+}
+
+service TelegramMessageService {
+   rpc SendTelegramMessage(TelegramMessage) returns (TelegramMessageStatus) {}
+}
