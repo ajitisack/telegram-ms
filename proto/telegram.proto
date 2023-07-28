@@ -2,7 +2,7 @@ syntax="proto3";
 
 package proto;
 
-option go_package = "./tradebot";
+option go_package = "./telegram-ms";
 
 message TelegramMessage {
     string user = 1;
