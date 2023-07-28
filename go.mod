@@ -1,4 +1,4 @@
-module tradebot
+module telegram-ms
 
 go 1.19
 
